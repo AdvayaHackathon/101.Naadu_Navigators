@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wander Smart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fff8e1;
+      color: #b71c1c;
+    }
+
+    header {
+      background-color: #fdd835;
+      color: #b71c1c;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 8px;
+      font-weight: 400;
+    }
+
+    nav {
+      background-color: #b71c1c;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: #fff8e1;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1em;
+      font-family: 'Inter', sans-serif;
+    }
+
+    nav a:hover {
+      color: #fdd835;
+    }
+
+    .hero {
+      background-image: url('https://assets.cntraveller.in/photos/66274454db07947d7b4ebc27/16:9/w_1280,c_limit/GettyImages-1343698748.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px #000;
+      font-size: 2.6em;
+      font-weight: bold;
+      text-align: center;
+      padding: 0 20px;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .places-section {
+      padding: 30px 20px;
+    }
+
+    .region-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2em;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #b71c1c;
+      border-bottom: 3px solid #b71c1c;
+      display: inline-block;
+      padding-bottom: 8px;
+    }
+
+    .place-card {
+      background-color: #fff3cd;
+      border-left: 6px solid #fdd835;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .place-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .place-card h2 {
+      margin-top: 0;
+      font-size: 1.9em;
+      font-family: 'Playfair Display', serif;
+      color: #b71c1c;
+    }
+
+    ul {
+      padding-left: 20px;
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    strong {
+      font-weight: 600;
+      font-size: 1.1rem;
+      display: inline-block;
+      margin-top: 20px;
+      font-family: 'Inter', sans-serif;
+    }
+
+    a.info-link {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 0.95em;
+      color: #b71c1c;
+      font-weight: bold;
+      text-decoration: underline;
+      transition: color 0.2s ease;
+    }
+
+    a.info-link:hover {
+      color: #f57f17;
+    }
+
+    .footer {
+      background-color: #b71c1c;
+      color: #fff8e1;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      font-size: 0.95rem;
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<script src="//code.tidio.co/g3xaetofcaig2b7zj6itvqex8shz3txb.js" async></script>
+<body>
+  <header>
+    <h1>Discover Bengaluru</h1>
+    <p>Explore the must-visit places across Bengaluru</p>
+  </header>
+
+  <nav>
+    <a href="#bengaluru">Bengaluru</a>
+  </nav>
+
+  <div class="hero">Welcome to WanderSmart</div>
+
+  <section class="places-section">
+    <div class="region-title">South Karnataka</div>
+
+    <div class="place-card" id="bengaluru">
+      <h2>Bengaluru</h2>
+      <ul>
+        <strong>Nature and Parks</strong>
+        <li>Lalbagh Botanical Garden – Historic garden with rare plant species and a glasshouse.
+          <a href="backup.html" class="info-link">More Info</a>
+        </li>
+        <li>Cubbon Park – A lush green park ideal for walks and picnics.
+          <a href="cub.html" class="info-link">More Info</a>
+        </li>
+        <li>Bannerghatta Biological Park – Wildlife park with safari tours, a zoo, and a butterfly park.
+          <a href="banner.html" class="info-link">More Info</a>
+        </li>
+      </ul>
+
+      <hr>
+
+      <strong>🏛 Historical & Cultural</strong>
+      <ul>
+        <li>Bangalore Palace – Tudor-style architecture inspired by Windsor Castle.
+          <a href="bp.html" class="info-link">More Info</a>
+        </li>
+        <li>Tipu Sultan's Summer Palace – A beautiful Indo-Islamic style palace.
+          <a href="tippu.html" class="info-link">More Info</a>
+        </li>
+        <li>Vidhana Soudha – The iconic state legislature building.
+          <a href="vid.html" class="info-link">More Info</a>
+        </li>
+      </ul>
+
+      <hr>
+
+      <strong>🛕 Religious Sites</strong>
+      <ul>
+        <li>ISKCON Temple – One of the world’s largest ISKCON temples.
+          <a href="iskon.html" class="info-link">More Info</a>
+        </li>
+        <li>Bull Temple – Famous for the monolithic Nandi statue.
+          <a href="bull.html" class="info-link">More Info</a>
+        </li>
+        <li>St. Mary's Basilica – Bangalore’s oldest church with Gothic architecture.
+          <a href="St.%20Mary's.html" class="info-link">More Info</a>
+        </li>
+      </ul>
+
+      <hr>
+
+      <strong>🛍 Shopping & Entertainment</strong>
+      <ul>
+        <li>MG Road & Brigade Road – Shopping and nightlife hotspots.
+          <a href="mg.html" class="info-link">More Info</a>
+        </li>
+        <li>Commercial Street – Known for budget shopping and street markets.
+          <a href="Commercial.html" class="info-link">More Info</a>
+        </li>
+        <li>UB City Mall – High-end shopping and fine dining.
+          <a href="UB.html" class="info-link">More Info</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 WanderSmart | Made with ❤ in Karnataka
+  </footer>
+</body>
+
+</html>
